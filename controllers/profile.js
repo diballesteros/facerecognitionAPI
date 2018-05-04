@@ -1,3 +1,5 @@
+
+//use the params (GET) to find the respective user from their ID
 const handleProfileGet = (req, res, db, bcrypt) => {
     const { id } = req.params;
 
